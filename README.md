@@ -13,6 +13,8 @@ A busca deve ser implementada usando busca binária.
 
 <i>Resolução:</i> Após definir variáveis de valor mínimo, médio e máximo, começando pela metade da lista, se o item iterado for maior/menor que o item médio define-se o ponto médio +1/-1 como o novo mínimo/máximo e processo se repete até encontrar o valor buscado. 
 
+![image](https://user-images.githubusercontent.com/69943624/189453582-1b110a75-a185-476f-b472-4620bf011687.png)
+
 
 <i>Complexidade:</i> O(log n) -> Cada iteração reduz a área pesquisável na metade.
 

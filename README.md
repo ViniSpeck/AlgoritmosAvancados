@@ -38,9 +38,14 @@ A busca deve ser implementada usando busca binária.
 
 <i>Problema:</i> Mesmo problema da primeira atividade, com o requisito de ser resolvido em paralelo.
 
+![image](https://user-images.githubusercontent.com/69943624/189454500-c54ed653-fdd5-46d5-9eba-0fe96dc300e1.png)
 
-<i>Resolução:</i> É utilizado o mesmo algoritmo de busca da atividade 1, mas dessa vez a execução é dividida em duas threads, um que busca o nome masculino e outro que busca o nome feminino. São iniciadas as threads passando os parâmetros de busca e depois são sincronizadas com o join().
+<i>Resolução:</i> É utilizado o mesmo algoritmo de busca da atividade 1, mas dessa vez a execução é dividida em duas threads, um que busca o nome masculino e outro que busca o nome feminino. 
 
+
+As threads são inicializadas passando os parâmetros de busca e finalmente são sincronizadas com join().
+
+![image](https://user-images.githubusercontent.com/69943624/189454888-d176a37d-4464-4293-9461-ab7ce65640df.png)
 
 <i>Complexidade:</i> O((logn)/2)
 

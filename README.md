@@ -61,6 +61,11 @@ Sugestão de dado para importar e ordenar https://www.kaggle.com/datasets/sveta1
 
 <i>Resolução:</i> A função heapSort() ordena a array para maxHeap, itera entre os elementos da array chamando a função heapify, que ordena o elemento iterado dentro da array estruturada como árvore.
 
+![image](https://user-images.githubusercontent.com/69943624/189455189-963c521f-5e71-4573-81a9-c422f389a5f6.png)
+
+![image](https://user-images.githubusercontent.com/69943624/189455211-f7c72143-650c-45e6-a277-f2142eb18612.png)
+
+![image](https://user-images.githubusercontent.com/69943624/189455232-dc4b6832-aedf-4cff-ac30-5e3d31e746b1.png)
 
 <i>Complexidade:</i> O(nlogn) -> Cenário do pior caso: Ir da base de uma raíz até a oposta
 
@@ -71,7 +76,7 @@ Sugestão de dado para importar e ordenar https://www.kaggle.com/datasets/sveta1
 <i>Problema:</i> Você recebe uma matriz unidimensional que pode conter tanto inteiros positivos quanto negativos, encontra a soma de subarranjos contíguos de números que tem a maior soma.
 
 
-<i>Resolução:</i> Foi usada uma abordagem similar ao merge sort, dividindo a array principal em duas partes iguais após calcular o ponto médio. Sabendo que a array com a maior soma está a direita, esquerda ou passando pelo meio da array principal, foi usada a recursividade pra pegar a soma das possibilidades e juntar no resultado.
+<i>Resolução:</i> Foi usada uma abordagem similar ao merge sort, dividindo a array principal em duas partes iguais após calcular o ponto médio. Sabendo que a array com a maior soma está à direita, esquerda ou passando pelo meio da array principal, foi usada a recursividade pra pegar a soma das possibilidades e juntar no resultado.
 
 
 <i>Complexidade:</i> O(nlogn)

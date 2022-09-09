@@ -27,6 +27,8 @@ A busca deve ser implementada usando busca binária.
 
 <i>Resolução:</i> Transformar o dataset em dicionário, fazendo as adequações necessárias (ordenar, resetar o índice e inverter a relação chave valor nesse caso que desejamos buscar por nome e não índice) e usar a função .get() para buscar a posição do nome.
 
+![image](https://user-images.githubusercontent.com/69943624/189454322-545db4c2-fafd-4842-a020-42ec06ca8271.png)
+
 
 <i>Complexidade:</i> O(1) -> A implementação interna do dicionário usa tabelas hash, então tem complexidade O(1) para encontrar o índice.
 

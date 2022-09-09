@@ -78,6 +78,9 @@ Sugestão de dado para importar e ordenar https://www.kaggle.com/datasets/sveta1
 
 <i>Resolução:</i> Foi usada uma abordagem similar ao merge sort, dividindo a array principal em duas partes iguais após calcular o ponto médio. Sabendo que a array com a maior soma está à direita, esquerda ou passando pelo meio da array principal, foi usada a recursividade pra pegar a soma das possibilidades e juntar no resultado.
 
+![image](https://user-images.githubusercontent.com/69943624/189455419-4fcf3b76-6186-4432-b2df-8feedb8bf2d4.png)
+
+![image](https://user-images.githubusercontent.com/69943624/189455433-034b62fb-dcbd-468b-96d4-34f7480415e1.png)
 
 <i>Complexidade:</i> O(nlogn)
 

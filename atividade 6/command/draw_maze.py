@@ -1,6 +1,6 @@
 import os
 
-def print_maze(maze, path):
+def draw_maze(maze, path):
     temp_maze=maze[:]
     os.system('cls')
     
@@ -17,4 +17,4 @@ def print_maze(maze, path):
             square = str(square).replace("X"," ")
             maze_drawing += square
         maze_drawing += "\n"
-    print(maze_drawing)
+    return maze_drawing

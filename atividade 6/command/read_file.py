@@ -1,4 +1,4 @@
-def file_reader(path):
+def read_file(path):
     maze = []
     file = open(path)
     for line in file.read().splitlines():

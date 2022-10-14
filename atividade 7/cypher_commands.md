@@ -1,21 +1,21 @@
 :server connect
 
 # Testing
-`
+```
 Match (m:Movie) where m.released > 2000 RETURN m
-`
-`
+```
+```
 MATCH (p:Person)-[d:DIRECTED]-(m:Movie) where m.released > 2010 RETURN p,d,m
-`
-`
+```
+```
 MATCH (p:Person) RETURN p limit 20
-`
-`
+```
+```
 MATCH (p:Person) return p.name, p.born
-`
-`
+```
+```
 Create (p:Person {name: 'John Doe'}) RETURN p
-`
+```
 ```
 MERGE (p:Person {name: 'John Doe'})<br/>
 ON MATCH SET p.lastLoggedInAt = timestamp()<br/>

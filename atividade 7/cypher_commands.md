@@ -17,17 +17,17 @@ MATCH (p:Person) return p.name, p.born
 Create (p:Person {name: 'John Doe'}) RETURN p
 ```
 ```
-MERGE (p:Person {name: 'John Doe'})<br/>
-ON MATCH SET p.lastLoggedInAt = timestamp()<br/>
-ON CREATE SET p.createdAt = timestamp()<br/>
-Return p<br/>
+MERGE (p:Person {name: 'John Doe'})
+ON MATCH SET p.lastLoggedInAt = timestamp()
+ON CREATE SET p.createdAt = timestamp()
+Return p
 ```
 ```
-MATCH (p:Person), (m:Movie)<br/>
-WHERE p.name = "Tom Hanks" and m.title = "Cloud Atlas"<br/>
-CREATE (p)-[w:WATCHED]->(m)<br/>
-RETURN type(w)<br/>
+MATCH (p:Person), (m:Movie)
+WHERE p.name = "Tom Hanks" and m.title = "Cloud Atlas"
+CREATE (p)-[w:WATCHED]->(m)
+RETURN type(w)
 ```
-`
+```
 MATCH (tom:Person {name: "Tom Hanks"})-[:ACTED_IN]->(:Movie)<-[:ACTED_IN]-(p:Person) return p.name
-`
+```

@@ -1,0 +1,4 @@
+13,wumpus
+9,hole
+2,exit
+10,gold
